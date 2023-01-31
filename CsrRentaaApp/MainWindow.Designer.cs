@@ -48,7 +48,7 @@
             this.manageRentalRecordsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1066, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -67,28 +67,28 @@
             // addVehicleToolStripMenuItem
             // 
             this.addVehicleToolStripMenuItem.Name = "addVehicleToolStripMenuItem";
-            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addVehicleToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.addVehicleToolStripMenuItem.Text = "Add Vehicle";
             this.addVehicleToolStripMenuItem.Click += new System.EventHandler(this.addVehicleToolStripMenuItem_Click);
             // 
             // removeVehicleToolStripMenuItem
             // 
             this.removeVehicleToolStripMenuItem.Name = "removeVehicleToolStripMenuItem";
-            this.removeVehicleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.removeVehicleToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.removeVehicleToolStripMenuItem.Text = "Remove Vehicle";
             this.removeVehicleToolStripMenuItem.Click += new System.EventHandler(this.removeVehicleToolStripMenuItem_Click);
             // 
             // editVehicleToolStripMenuItem
             // 
             this.editVehicleToolStripMenuItem.Name = "editVehicleToolStripMenuItem";
-            this.editVehicleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editVehicleToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.editVehicleToolStripMenuItem.Text = "Edit Vehicle";
             this.editVehicleToolStripMenuItem.Click += new System.EventHandler(this.editVehicleToolStripMenuItem_Click);
             // 
             // viewListingToolStripMenuItem
             // 
             this.viewListingToolStripMenuItem.Name = "viewListingToolStripMenuItem";
-            this.viewListingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewListingToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.viewListingToolStripMenuItem.Text = "View Listing";
             this.viewListingToolStripMenuItem.Click += new System.EventHandler(this.viewListingToolStripMenuItem_Click);
             // 
@@ -101,6 +101,7 @@
             this.manageRentalRecordsToolStripMenuItem.Name = "manageRentalRecordsToolStripMenuItem";
             this.manageRentalRecordsToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.manageRentalRecordsToolStripMenuItem.Text = "Manage Rental Records";
+            this.manageRentalRecordsToolStripMenuItem.Click += new System.EventHandler(this.manageRentalRecordsToolStripMenuItem_Click);
             // 
             // addRentalRecordsToolStripMenuItem
             // 
@@ -127,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1066, 670);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;

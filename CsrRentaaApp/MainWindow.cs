@@ -20,6 +20,7 @@ namespace CsrRentaaApp
         private void button1_Click(object sender, EventArgs e)
         {
             var AddRentalRecord = new AddRentalRecord();
+            AddRentalRecord.MdiParent = this;
             AddRentalRecord.Show();
         }
 
@@ -38,7 +39,9 @@ namespace CsrRentaaApp
 
         private void viewArchivToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var ViewArchiev = new ViewArchiev();
+            ViewArchiev.MdiParent = this;
+            ViewArchiev.Show();
         }
 
         private void editRentalRecordToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,6 +76,11 @@ namespace CsrRentaaApp
         private void manageVehicleListingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void manageRentalRecordsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
